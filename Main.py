@@ -47,6 +47,7 @@ while True:
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_DOWN and action > 0:
                 action -= 1
+                print("pridedu faila")
                 frame = 0
             if event.key == pygame.K_UP and action < len(animation_list) - 1:
                 action += 1
